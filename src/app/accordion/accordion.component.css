@@ -1,0 +1,65 @@
+mat-panel-title {
+    font-size: 20px;
+    font-style: italic;
+    padding: 12px;
+}
+
+p {
+    font-size: 16px;
+    padding: 12px;
+    line-height: 1.5;
+}
+
+b {
+    font-size: medium;
+}
+
+.team-photo, .city-photo {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+
+.cfr-img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    height: 300px;
+    border-radius: 12px;
+}
+
+.stadium-gallery, .ucl-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.stadium-photo, .match-photo {
+    max-width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 12px;
+}
+
+
+.link-container {
+    text-align: center;
+    margin-top: 22px;
+}
+
+a {
+    border-radius: 12px;
+    margin: 0 auto;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: rgb(65, 14, 14);
+}
