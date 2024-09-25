@@ -14,7 +14,7 @@ b {
     font-size: medium;
 }
 
-.team-photo, .city-photo {
+.team-photo, .city-photo, .fans-photo {
     display: block;
     margin: 10px auto;
     max-width: 100%;

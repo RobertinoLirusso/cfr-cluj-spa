@@ -3,17 +3,19 @@
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    background-color: #8d2642;
 }
 
-.header {
-    padding: 8px;
+
+.container, .card-container {
     background-color: black;
+}
+.header {
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 22%, rgba(141,38,66,1) 100%);
+    padding: 8px;
     display: flex;
     justify-content: center;
     align-items:center;
-    margin: 5px;
-    border-radius: 16px;
 }
 
 .header span {
@@ -54,10 +56,9 @@
 .title h2 {
     display: inline-block;
     color: white;
-    border: 1px solid black;
     border-radius: 14px;
     padding: 6px;
-    background-color: black;
+    background-color: #8D2642;
 }
 
 mat-card-title {
@@ -71,7 +72,6 @@ mat-card-title {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: 10px;
-    background-color: #8d2642;
 }
 
 .player-img {
@@ -81,8 +81,9 @@ mat-card-title {
 }
 
 .footer {
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 22%, rgba(141,38,66,1) 100%);
     padding: 10px;
-    background-color: #000;
     color: white;
     display: flex;
     justify-content: center;
